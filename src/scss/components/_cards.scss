@@ -1,0 +1,9 @@
+.card {
+    box-sizing: border-box;
+    flex: 0 1 calc(min(300px, 90%));
+    margin-right: 4.5rem;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
