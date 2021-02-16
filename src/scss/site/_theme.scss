@@ -2,6 +2,24 @@
     background: var(--black);
 }
 
+.image {
+    display: none;
+
+    @include sm {
+        display: inline-block;
+        margin-bottom: -6px;
+    }
+}
+
+.image-bg {
+    background: url("/assets/images/student-on-laptop.jpg") right center no-repeat;
+    background-size: 50%;
+
+    @include sm {
+        background: none;
+    }
+}
+
 .is-white {
     color: var(--white);
 }

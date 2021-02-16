@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.flex {
+.l-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,4 +17,12 @@
     box-sizing: border-box;
     margin: auto;
     width: calc(min(1170px, 85%));
+}
+
+.wrap-tight {
+    width: 47.5%;
+
+    @include sm {
+        width: 100%;
+    }
 }
